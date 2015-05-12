@@ -44,6 +44,10 @@ function getDeltaTime()
 
 // Will not modifying anything above this line 
 
+
+
+
+
 var SCREEN_WIDTH = canvas.width;
 var SCREEN_HEIGHT = canvas.height;
 
@@ -177,7 +181,7 @@ function run()
 	var heartImage =document.createElement("img")
 	heartImage.src = "Heart.png"
 	{
-		context.drawImage(heartImage, 20, 10);
+		context.drawImage(heartImage, 20, 50);
 	}
 	
 	switch(gameState)
