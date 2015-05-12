@@ -16,7 +16,7 @@ function runWin(deltaTime)
 {
 	context.fillStyle = "#000";
 	context.font = "28px Arial";
-	context.fillText("You WIN!!!!  Die to Reset", 200, 240);
+	context.fillText("You've WON!!", 200, 240);
 }
 
 function runReset(deltaTime)
