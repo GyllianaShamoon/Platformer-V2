@@ -16,7 +16,7 @@ var lives = 3;
 
 var Player = function ()
 {
-	this.sprite = new Sprite("ChuckNorris.png");
+	this.sprite = new Sprite("Bruh.png");
 	
 	//AFK LEFT
 	this.sprite.buildAnimation(12, 8, 165, 126, 0.05, 
